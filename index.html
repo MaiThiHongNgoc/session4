@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- có 3 selector chính
+    1.Selector id: sử dụng id của thẻ(tag).
+    2.Selector class: sd thuộc tính "class" của thẻ.
+    3.Selector tag: sd tên thẻ.
+
+-->
+<style>
+    /* selector id*/
+    #special{
+        color: red;
+        text-decoration: underline;
+    }
+    /*selector tag*/
+    p,h1{
+        font-size: 20px;
+        color: blue;
+
+    }
+    /*selector class*/
+    .highlight{
+        background-color: yellow;
+        font-weight: bold;
+        color: green;
+    }
+    ul li{
+        list-style-type: square;
+        color: brown;
+    }
+    ol li{
+        color: aqua;
+    }
+    /*selector tag thiết lập thuộc tính con*/
+    input{
+        border: 3px solid pink;
+    }
+
+
+</style>
+
+
+</head>
+<body>
+    <h1 id="special">Wellcome to my site</h1>
+    <p>The is paragraph will have font size...</p>
+    <p>This is another paragrap</p>
+    <ul>
+        <li>list item 1</li>
+        <li>list item 2</li>
+        <li class="highlight">list item 3</li>
+    </ul>
+    <ol>
+        <li>li1</li>
+        <li>li2</li>
+        <li>li3</li>
+        <li>li4</li>
+        <li>li5</li>
+    </ol>
+    <h1>This is H1 tag</h1>
+    <input type="text" placeholder="enter your name"><br>
+    <input type="password" placeholder="enter your password" >
+</body>
+</html>
